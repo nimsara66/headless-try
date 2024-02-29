@@ -27,7 +27,7 @@ export async function GET() {
     });
 
     const page = await browser.newPage();
-    await page.goto("https://hehehai.cn", {
+    await page.goto("https://www.google.com", {
       waitUntil: "networkidle0",
       timeout: 100000,
     });
